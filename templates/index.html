@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+<div class="mui-row">
+  <div class="mui-col-md-12">
+    <img src="/assets/img/index2.jpg" width="100%">
+  </div>
+</div>
+<br />
+<div class="mui-row">
+  <div class="mui-col-md-9">
+    {{ section.content | safe }}
+  </div>
+  <div class="mui-col-md-3">
+
+    <div>
+      آخرین نوشته‌ها
+      <div class="mui-divider"></div>
+      <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}
